@@ -1,0 +1,24 @@
+Index: file/a.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>a\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/file/a.txt b/file/a.txt
+--- a/file/a.txt	(revision 3dc82ff0a28ff77ff4b2185b51537e27fc15a656)
++++ b/file/a.txt	(date 1710984051529)
+@@ -1,1 +1,1 @@
+-a
++2a
+Index: file/d.txt
+===================================================================
+diff --git a/file/d.txt b/file/d.txt
+deleted file mode 100644
+--- a/file/d.txt	(revision 3dc82ff0a28ff77ff4b2185b51537e27fc15a656)
++++ /dev/null	(revision 3dc82ff0a28ff77ff4b2185b51537e27fc15a656)
+@@ -1,1 +0,0 @@
+-test update
+\ No newline at end of file
+diff --git a/file/c.txt b/file/c.txt
+new file mode 100644

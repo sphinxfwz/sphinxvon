@@ -1,0 +1,9 @@
+Index: file/d.txt
+===================================================================
+diff --git a/file/d.txt b/file/d.txt
+deleted file mode 100644
+--- a/file/d.txt	(revision ac888871cb10b5b288177f88549aa3443493013b)
++++ /dev/null	(revision ac888871cb10b5b288177f88549aa3443493013b)
+@@ -1,1 +0,0 @@
+-test update
+\ No newline at end of file
